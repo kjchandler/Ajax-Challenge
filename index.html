@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Code Along</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<div class = "form-container">
+		<form id="instagram-form" action= "https://api.instagram.com/v1/users/search" method ="GET">
+
+			<input id="username" type="text" name="q" placeholder="Write username Here" autocomplete="off" >
+
+ 			<input type="hidden" name="client_id" value="61f8b631abd34732a3bcd8c73d0d73a9">
+		</form>
+
+		<ul id="instagram-users" class="instagram-users">
+		</ul>
+
+		<p>more website stuff</p>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="js/day1.js"></script>
+</body>
+</html>
